@@ -1,3 +1,4 @@
+# 誕生日の曜日と経過日数を算出するアルゴリズム
 class Calc
 
   puts "今の曜日を月曜〜日曜で入力してください"
@@ -184,4 +185,5 @@ class Calc
     birthdayOfWeek = 1
   end
   puts "誕生から現在までの通算日数は" + sumOfDays.to_s + "日、誕生日の曜日は" + week[birthdayOfWeek].to_s + "です"
+  
 end
